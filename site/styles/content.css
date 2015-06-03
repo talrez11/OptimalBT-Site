@@ -91,6 +91,10 @@ form label input {
 	transition:all 0.3s;
 }
 
+form label input:hover {
+	border:2px solid #00adee ;
+}
+
 form label input:focus {
 	border:2px solid #00adee ;
 }
