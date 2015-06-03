@@ -1,0 +1,44 @@
+/**
+ * header Style Sheet
+ * Optimal Body Tight-Site
+ *
+ * Copyright (c) 2015. by Way2CU, http://way2cu.com
+ * Authors:Tal Reznic
+ */
+
+header {
+	display: block;
+	padding:0px calc((100vw - 1200px) / 2);
+	text-align: right;
+	background-image: url(../images/header-background.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: 1920px 520px;
+	min-height: 520px;
+
+}
+
+header h1 {
+	display: block;
+	margin: 0px;
+	padding-top: 120px;
+	font-size: 3.8em;
+	color: #1b4868;
+	font-weight: 300;
+	line-height: 1.2em;
+	width: 50%;
+	position: relative;
+}
+
+header h1:before {
+	content: "";
+	position: absolute;
+	top: 20px;
+	right: 0px;
+	background-image: url(../images/logo.svg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 250px 100px;
+	width: 250px;
+	height: 100px;
+}
