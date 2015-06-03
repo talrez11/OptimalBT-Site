@@ -1,0 +1,13 @@
+<document>
+	<p><cms:var param="title" multilanguage="yes"/></p>
+	<cms:module
+		name="youtube"
+		action="show"
+		text_id="optimal_video"
+		cms:eval="text_id"
+		embed="1"
+		width="550"
+		height="366"
+
+		/>
+</document>
