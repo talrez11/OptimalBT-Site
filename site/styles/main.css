@@ -1,12 +1,15 @@
 /**
  * Main Style Sheet
- * Site Name
+ * Optimal Body Tight-Site
  *
  * Copyright (c) 2015. by Way2CU, http://way2cu.com
- * Authors:
+ * Authors:Tal Reznic
  */
 
+@import url(http://fonts.googleapis.com/earlyaccess/opensanshebrew.css);
 body {
+	font-family: 'Open Sans Hebrew', sans-serif;
 	background-color: white;
-	color: black;
+	color:#1b4868;
+
 }
