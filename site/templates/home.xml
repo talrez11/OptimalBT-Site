@@ -9,7 +9,78 @@
 		</head>
 
 		<body class="$language_rtl ? 'rtl' : 'ltr'" cms:eval="class">
-			<h1>It works!</h1>
+			<header>
+				<h1><cms:text constant="header_title"/></h1>
+			</header>
+
+			<div class="form_wrap">
+				<h3><cms:text constant="form_title"/></h3>
+				<cms:module
+					name="contact_form"
+					action="show"
+					text_id="contact_form"
+					/>
+
+			</div>
+
+			<div class="procedure">
+				<cms:module
+					name="articles"
+					action="show"
+					text_id="procedure_article"
+					template="parts/article.xml"
+					/>
+
+				<div class="video_container">
+					<cms:module
+						name="youtube"
+						action="show"
+						text_id="optimal_video"
+						cms:eval="text_id"
+						template="parts/video.xml"
+						/>
+				</div>
+
+				<cms:module
+					name="articles"
+					action="show"
+					text_id="about_article"
+					template="parts/article_heading.xml"
+					/>
+
+
+				<cms:module
+					name="articles"
+					action="show_group"
+					text_id="treatment_group"
+					template="parts/show_articles.xml"
+
+				/>
+
+
+			</div>
+
+			<div class="bottom">
+				<cms:module
+					name="articles"
+					action="show"
+					text_id="footer_article"
+					template="parts/article.xml"
+					/>
+
+				<span><cms:text constant="form_title"/></span>
+				<cms:module
+					name="contact_form"
+					action="show"
+					text_id="contact_form"
+					/>
+
+			</div>
+
+			<footer>
+				<span><cms:text constant="copyright"/></span>
+			</footer>
+
 		</body>
 	</html>
 </document>
