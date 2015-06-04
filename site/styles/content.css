@@ -42,6 +42,7 @@ div.form_wrap h3 {
 
 form {
 	display: block;
+	text-align: center;
 }
 
 form label {
@@ -423,3 +424,104 @@ footer span a:hover {
 	color:#5bc2d8;
 }
 
+/*Tablet Version*/
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+
+header h1 {
+	padding-right: 20px;
+}
+
+header h1:before {
+	right:20px;
+}
+
+div.procedure_article {
+	display: inline-block;
+	vertical-align: top;
+	padding-right: 20px;
+	width: 50%;
+}
+
+div.procedure_article p:first-of-type {
+	font-size: 1.6em;
+}
+
+div.procedure_article p {
+	font-size: 1.6em;
+}
+
+
+div.video_container {
+	display: inline-block;
+	vertical-align: top;
+	width: 450px;
+	margin-right: 20px;
+	text-align: center;
+}
+
+div.video_container p {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+div.video_container iframe {
+	width: 400px;
+	height: 300px;
+	border: 10px solid white;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.42);
+}
+
+div.treatment_group div {
+	display: block;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	padding-right: 450px;
+	background-image: url(../images/treatments-photos.jpg);
+	background-repeat: no-repeat;
+	background-position: 625px 50px;
+	position: relative;
+	min-height: 200px;
+}
+
+div.treatment_group div:nth-of-type(2) {
+    background-position: 625px -300px;
+}
+
+div.treatment_group div:nth-of-type(3) {
+  background-position: 625px -650px;
+}
+
+div.treatment_group div:nth-of-type(4) {
+  background-position: 625px -1000px;
+  font-size: 1.3em;
+  padding-bottom: 30px;
+  height: 0px;
+}
+
+form label input {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 40px;
+  font-size: 0.9em;
+  font-weight: 300;
+  color: #94a4a5;
+  border: 2px solid #94a4a5;
+  border-radius: 10px;
+  width: 150px;
+  transition: all 0.3s;
+}
+
+div.footer_article {
+	padding-right: 20px;
+}
+
+div.bottom > span {
+	margin-top: 50px;
+	padding-right: 20px;
+}
+
+
+
+
+}
