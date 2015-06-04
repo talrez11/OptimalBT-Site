@@ -9,9 +9,26 @@
 		</head>
 
 		<body class="$language_rtl ? 'rtl' : 'ltr'" cms:eval="class">
-			<header>
-				<h1><cms:text constant="header_title"/></h1>
-			</header>
+			<cms:desktop>
+				<header>
+					<h1><cms:text constant="header_title"/></h1>
+				</header>
+			</cms:desktop>
+
+			<cms:mobile>
+				<header>
+					<div class="menu">
+						<a
+							href="'tel:'.urlencode(Language::getText('phone'))"
+							cms:eval="href"
+							class="phone"
+							>
+						</a>
+					</div>
+
+					<h1><cms:text constant="header_title"/></h1>
+				</header>
+			</cms:mobile>
 
 			<div class="form_wrap">
 				<h3><cms:text constant="form_title"/></h3>
@@ -60,22 +77,43 @@
 
 			</div>
 
-			<div class="bottom">
-				<cms:module
-					name="articles"
-					action="show"
-					text_id="footer_article"
-					template="parts/article.xml"
-					/>
+			<cms:desktop>
+				<div class="bottom">
+					<cms:module
+						name="articles"
+						action="show"
+						text_id="footer_article"
+						template="parts/article.xml"
+						/>
 
-				<span><cms:text constant="form_title"/></span>
-				<cms:module
-					name="contact_form"
-					action="show"
-					text_id="contact_form"
-					/>
+					<span><cms:text constant="form_title"/></span>
+					<cms:module
+						name="contact_form"
+						action="show"
+						text_id="contact_form"
+						/>
+				</div>
+			</cms:desktop>
+			<cms:mobile>
+				<div class="bottom">
+					<cms:module
+						name="articles"
+						action="show"
+						text_id="footer_article"
+						template="parts/article.xml"
+						/>
 
-			</div>
+				</div>
+
+				<div class="form_bottom">
+					<span><cms:text constant="form_title"/></span>
+					<cms:module
+						name="contact_form"
+						action="show"
+						text_id="contact_form"
+						/>
+				</div>
+			</cms:mobile>
 
 			<footer>
 				<span><cms:text constant="copyright"/></span>
