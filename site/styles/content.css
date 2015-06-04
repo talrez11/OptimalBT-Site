@@ -310,11 +310,7 @@ div.treatment_group div:nth-of-type(4) {
 	background-position: 730px -1000px;
 	padding-bottom: 0px;
 	height: 0px;
-
 }
-
-
-
 
 div.treatment_group div h3 {
 	display: block;
@@ -494,9 +490,16 @@ div.treatment_group div:nth-of-type(3) {
 
 div.treatment_group div:nth-of-type(4) {
   background-position: 625px -1000px;
-  font-size: 1.3em;
   padding-bottom: 30px;
   height: 0px;
+}
+
+form label {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 3px;
+  margin-right: 3px;
+  position: relative;
 }
 
 form label input {
@@ -508,7 +511,7 @@ form label input {
   color: #94a4a5;
   border: 2px solid #94a4a5;
   border-radius: 10px;
-  width: 150px;
+  width: 140px;
   transition: all 0.3s;
 }
 
@@ -517,7 +520,7 @@ div.footer_article {
 }
 
 div.bottom > span {
-	margin-top: 50px;
+	margin-top: 30px;
 	padding-right: 20px;
 }
 
