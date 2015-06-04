@@ -117,6 +117,7 @@ form div.controls button {
 	border:1px solid transparent;
 	border-radius: 10px;
 	width: 140px;
+	cursor: pointer;
 	transition:all 0.3s;
 }
 
@@ -157,14 +158,6 @@ div.procedure_article {
 	width: 50%;
 }
 
-div.procedure_article h3 {
-	display: block;
-	padding-left: 40px;
-	padding-bottom: 20px;
-	color: #1b4868;
-	font-weight: 400;
-	line-height: 1.2em;
-}
 
 div.procedure_article h2 {
 	display: block;
@@ -172,6 +165,17 @@ div.procedure_article h2 {
 	padding-bottom: 20px;
 	color: #1b4868;
 	line-height: 1.2em;
+}
+
+div.procedure_article p:first-of-type {
+	display: block;
+	padding-left:0px;
+	padding-right:0px;
+	padding-bottom: 20px;
+	background-image: none;
+	font-size:2em;
+	color: #1b4868;
+	font-weight: 400;
 }
 
 div.procedure_article p {
