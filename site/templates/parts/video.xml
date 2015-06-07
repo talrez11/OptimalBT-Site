@@ -1,26 +1,23 @@
 <document>
 	<cms:desktop>
-		<p><cms:var param="title" multilanguage="yes"/></p>
-		<cms:module
-			name="youtube"
-			action="show"
-			text_id="optimal_video"
-			cms:eval="text_id"
-			embed="1"
-			width="550"
-			height="366"
-			/>
+				<p><cms:var param="title" multilanguage="yes"/></p>
+				<a
+					class="youtube"
+					href="url_Make('view', 'dialog_video', array('id', $params['id']))"
+					title="$params['title'][$language]"
+					cms:eval="href,title"
+					>
+				</a>
 	</cms:desktop>
 
 	<cms:mobile>
-		<a
-			class="youtube mobile"
-			href="'http://www.youtube.com/watch?v='.$params['video_id']"
-			title="$params['title'][$language]"
-			cms:eval="href,title"
-			>
-
-		</a>
-		<p><cms:var param="title" multilanguage="yes"/></p>
+				<a
+					class="youtube mobile"
+					href="'http://www.youtube.com/watch?v='.$params['video_id']"
+					title="$params['title'][$language]"
+					cms:eval="href,title"
+					>
+				<span><cms:text constant="video_title"/></span>
+				</a>
 	</cms:mobile>
 </document>
