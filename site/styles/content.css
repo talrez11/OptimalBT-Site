@@ -195,13 +195,32 @@ div.procedure_article p {
 div.video_container {
 	display: inline-block;
 	vertical-align: top;
+	text-align: center;
 	width: 50%;
+	position: relative;
+}
+
+div.video_container a {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+    background-image: url(../images/youtube.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 550px 366px;
+	width: 550px;
+	height: 366px;
+
 }
 
 div.video_container iframe {
 	border:10px solid white;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.42);
+    position: relative;
+    z-index:-1;
+
 }
+
 
 div.video_container p {
 	display: block;
@@ -420,6 +439,14 @@ footer span a:hover {
 	color:#5bc2d8;
 }
 
+div.dialog div.content {
+  display: block;
+  text-align: center;
+  overflow: hidden;
+}
+
+
+
 /*Tablet Version*/
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
@@ -461,7 +488,7 @@ div.video_container p {
 	padding-right: 15px;
 }
 
-div.video_container iframe {
+div.video_container a {
 	width: 400px;
 	height: 300px;
 	border: 10px solid white;
