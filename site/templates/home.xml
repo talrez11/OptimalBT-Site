@@ -49,13 +49,13 @@
 					/>
 
 				<div class="video_container">
-					<cms:module
-						name="youtube"
-						action="show"
-						text_id="optimal_video"
-						cms:eval="text_id"
-						template="parts/video.xml"
-						/>
+						<cms:module
+							name="youtube"
+							action="show"
+							text_id="optimal_video"
+							template="parts/video.xml"
+							/>
+
 				</div>
 
 				<cms:module
