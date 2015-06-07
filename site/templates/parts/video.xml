@@ -19,11 +19,7 @@
 			title="$params['title'][$language]"
 			cms:eval="href,title"
 			>
-			<img
-				src="$params['thumbnail']"
-				alt="$params['title'][$language]"
-				cms:eval="src,alt"
-			/>
+
 		</a>
 		<p><cms:var param="title" multilanguage="yes"/></p>
 	</cms:mobile>
