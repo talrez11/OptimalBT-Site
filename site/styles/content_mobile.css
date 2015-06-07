@@ -252,6 +252,38 @@ div.video_container {
 	padding-top: 15px;
 }
 
+div.video_container a {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px 0px;
+	background-image: url(../images/logo.svg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 150px 80px;
+	width: 200px;
+	height: 80px;
+	box-shadow: 0px 0px 10px rgba(128, 128, 128, 0.5);
+	cursor: pointer;
+	position: relative;
+}
+
+div.video_container a:before {
+	content: "";
+	position: absolute;
+	top: 50%;
+	margin-top: -25px;
+	left: 50%;
+	margin-left: -25px;
+	background-image: url(../images/youtube-icon.svg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 50px 50px;
+	width: 50px;
+	height: 50px;
+	cursor: pointer;
+}
+
 div.video_container iframe {
 	margin-left: auto;
 	margin-right: auto;

@@ -295,7 +295,7 @@ div.treatment_group div {
 	background-repeat: no-repeat;
 	background-position: 730px 50px;
 	position: relative;
-	min-height: 200px;
+	min-height: 150px;
 }
 
 div.treatment_group div:nth-of-type(2) {
@@ -308,7 +308,7 @@ div.treatment_group div:nth-of-type(3) {
 
 div.treatment_group div:nth-of-type(4) {
 	background-position: 730px -1000px;
-	padding-bottom: 0px;
+	padding-bottom: 30px;
 	height: 0px;
 }
 
