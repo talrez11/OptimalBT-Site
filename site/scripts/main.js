@@ -66,6 +66,7 @@ Site.is_mobile = function() {
 			// set content from URL and show it.
 			video_dialog.setContentFromURL($(this).attr('href'));
 			video_dialog.showWhenReady();
+			video_dialog.setClearOnClose(true);
 		});
 	}
 Site.on_load = function() {
