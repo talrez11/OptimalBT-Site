@@ -40,6 +40,11 @@ div.form_wrap h3 {
 	line-height: 1em;
 }
 
+a.phonenum {
+	color:white;
+	text-decoration: none;
+}
+
 form {
 	display: block;
 	text-align: center;
