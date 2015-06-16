@@ -464,6 +464,10 @@ header h1:before {
 	right:20px;
 }
 
+a.phone {
+	margin-right: 15px;
+}
+
 div.procedure_article {
 	display: inline-block;
 	vertical-align: top;

@@ -42,3 +42,34 @@ header h1:before {
 	width: 250px;
 	height: 100px;
 }
+
+header a.phone {
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 30px;
+  padding-right: 30px;
+  background:#00adee;
+  border: 1px solid #00adee;
+  text-decoration: none;
+  font-size: 2.2em;
+  color: white;
+  font-weight: bold;
+  box-shadow: 3px 3px 2px rgba(213, 189, 189, 0.3);
+  border-radius: 8px;
+  position: relative;
+  transition:all 0.3s;
+}
+
+header a.phone:hover {
+	background-color: #75cb1d;
+}
+
+header a.phone span {
+  display: block;
+  font-size: 0.5em;
+}

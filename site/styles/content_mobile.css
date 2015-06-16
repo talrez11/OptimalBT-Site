@@ -70,11 +70,43 @@ header h1 {
 	margin-right: auto;
 	margin: 0px;
 	padding-top:70px;
-	font-size: 1.9em;
+	font-size: 1.6em;
 	color: #1b4868;
 	font-weight: 300;
 	line-height: 1.2em;
 	position: relative;
+}
+
+header > a.phone {
+	display:block;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 110px;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	background:#00adee;
+	border: 1px solid #00adee;
+	text-decoration: none;
+	font-size: 1.5em;
+	color: white;
+	font-weight: bold;
+	box-shadow: 3px 3px 2px rgba(213, 189, 189, 0.3);
+	border-radius: 8px;
+	position: relative;
+}
+
+header > a.phone:hover {
+	background-color: #75cb1d;
+}
+
+
+header > a.phone span {
+	display: block;
+	font-size: 0.5em;
 }
 
 div.form_wrap {
