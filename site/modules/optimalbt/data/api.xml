@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<frontask>
+<request>
+    <auth>
+        <systemid>9e176256-a49f-4620-8cd8-ea4a00fd136d</systemid>
+    </auth>
+    <action>
+        <type>webtolead</type>
+        <processdefinitionstepid>PP0f6f164d_de84_4d65_b4ca_0490c4c669aa</processdefinitionstepid>
+    </action>
+    <data>
+        <contactdetails>
+            <idcardnumber></idcardnumber>
+            <firstname>%name%</firstname>
+            <lastname></lastname>
+            <title></title>
+            <gender></gender> <!-- Male / Female -->
+            <phone></phone>
+            <mobilephone>%phone%</mobilephone>
+            <otherphone></otherphone>
+            <fax></fax>
+            <email>%email%</email>
+            <url></url>
+            <birthdate></birthdate> <!-- dd/mm/yyyy -->
+            <accountname></accountname>
+            <address>
+                <text></text>
+                <city>%address%</city>
+                <postalcode></postalcode>
+                <country></country>
+            </address>
+            <contacttypes><typeid>PM35704a62_080b_4e27_9181_9ad8ef2654ab</typeid></contacttypes>
+            <extrainfo><CNA77851F2_C4A6_46BC_A62A_CFD4DA96E667>%ref%</CNA77851F2_C4A6_46BC_A62A_CFD4DA96E667> <!-- אופן הפניה -->
+<CNA77851F2_C4A6_46BC_A62A_CFD4DA96E668></CNA77851F2_C4A6_46BC_A62A_CFD4DA96E668> <!-- סניף -->
+<CNA77851F2_C4A6_46BC_A62A_CFD4DA96E669></CNA77851F2_C4A6_46BC_A62A_CFD4DA96E669> <!-- איזור -->
+</extrainfo>
+        </contactdetails>
+        <remarks></remarks>
+        <mailinglist></mailinglist> <!-- 0 = false, 1 = true -->
+        <updatedetails></updatedetails> <!-- 0 = false, 1 = true -->
+        <processdata><stepnotes></stepnotes>
+        <extrainfo><CN04a1e7fe_a64f_44b3_8e99_93827cdd56d0>%ref%</CN04a1e7fe_a64f_44b3_8e99_93827cdd56d0> <!-- איך הגיע אלינו -->
+</extrainfo>
+        </processdata>
+    </data>
+</request>
+</frontask>

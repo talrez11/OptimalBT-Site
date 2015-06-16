@@ -71,6 +71,13 @@ Site.is_mobile = function() {
 	}
 Site.on_load = function() {
 	dialog();
+	// handle analytics event
+	$('form').on('analytics-event', function(event, data) {
+		if (!data.error)
+			dataLayer.push({
+            	'event':'leadSent'
+            });
+	});
 };
 
 

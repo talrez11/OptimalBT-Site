@@ -9,6 +9,7 @@
 		</head>
 
 		<body class="$language_rtl ? 'rtl' : 'ltr'" cms:eval="class">
+			<cms:raw file="parts/gtm.txt"/>
 			<cms:desktop>
 				<header>
 					<h1><cms:text constant="header_title"/></h1>
