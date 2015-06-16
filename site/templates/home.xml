@@ -13,6 +13,14 @@
 			<cms:desktop>
 				<header>
 					<h1><cms:text constant="header_title"/></h1>
+					<a
+						href="'tel:'.urlencode(Language::getText('phone1'))"
+						cms:eval="href"
+						class="phone"
+						>
+						<span><cms:text constant="phone_title"/></span>
+						<cms:text constant="phone1"/>
+					</a>
 				</header>
 			</cms:desktop>
 
@@ -28,6 +36,14 @@
 					</div>
 
 					<h1><cms:text constant="header_title"/></h1>
+					<a
+						href="'tel:'.urlencode(Language::getText('phone1'))"
+						cms:eval="href"
+						class="phone"
+						>
+						<span><cms:text constant="phone_title"/></span>
+						<cms:text constant="phone1"/>
+					</a>
 				</header>
 			</cms:mobile>
 
