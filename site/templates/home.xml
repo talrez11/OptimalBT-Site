@@ -13,6 +13,7 @@
 			<cms:desktop>
 				<header>
 					<h1><cms:text constant="header_title"/></h1>
+					<p><cms:text constant="header_desc"/></p>
 					<a
 						href="'tel:'.urlencode(Language::getText('phone1'))"
 						cms:eval="href"
@@ -36,6 +37,7 @@
 					</div>
 
 					<h1><cms:text constant="header_title"/></h1>
+					<p><cms:text constant="header_desc"/></p>
 					<a
 						href="'tel:'.urlencode(Language::getText('phone1'))"
 						cms:eval="href"
@@ -103,7 +105,7 @@
 						template="parts/article.xml"
 						/>
 
-					<span><cms:text constant="form_title"/></span>
+					<span><cms:text constant="form_title2"/></span>
 					<cms:module
 						name="contact_form"
 						action="show"
@@ -123,7 +125,7 @@
 				</div>
 
 				<div class="form_bottom">
-					<span><cms:text constant="form_title"/></span>
+					<span><cms:text constant="form_title2"/></span>
 					<cms:module
 						name="contact_form"
 						action="show"
