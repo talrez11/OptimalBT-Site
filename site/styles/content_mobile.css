@@ -109,6 +109,11 @@ header > a.phone span {
 	font-size: 0.5em;
 }
 
+a.phonenum {
+	text-decoration: none;
+	color: inherit;
+}
+
 div.form_wrap {
 	display: block;
 	text-align: center;
