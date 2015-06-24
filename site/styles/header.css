@@ -18,6 +18,11 @@ header {
 
 }
 
+header.thankyou {
+	background-size: cover;
+	min-height: 800px;
+}
+
 header h1 {
 	display: block;
 	margin: 0px;

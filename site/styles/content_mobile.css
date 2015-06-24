@@ -35,6 +35,11 @@
 	min-height: 440px;
 }
 
+header.thankyou {
+	background-size: cover;
+	min-height: 600px;
+}
+
 header div.menu {
 	position: fixed;
 	top: 0px;
