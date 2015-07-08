@@ -57,6 +57,10 @@ Site.is_mobile = function() {
 
 		video_dialog.setTitle(language_handler.getText(null, 'dialog_video_title'));
 		video_dialog.setSize(550, 366);
+		video_dialog.setContentFromURL($('a.youtube').attr('href'));
+		video_dialog.setClearOnClose(true);
+		video_dialog.show();
+		video_dialog.showWhenReady();
 
 		$('a.youtube').not('.mobile').click(function(event) {
 
@@ -68,9 +72,12 @@ Site.is_mobile = function() {
 			video_dialog.showWhenReady();
 			video_dialog.setClearOnClose(true);
 		});
+
 	}
 Site.on_load = function() {
+	if (!Site.is_mobile()){
 	dialog();
+	}
 	var thankyou = "/thankyou" + window.location.search;
 	// handle analytics event
 	$('form').on('analytics-event', function(event, data) {
