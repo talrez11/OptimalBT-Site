@@ -87,3 +87,7 @@ body {
 	color:#1b4868;
 
 }
+
+div.dialog {
+	top: -150%;
+}

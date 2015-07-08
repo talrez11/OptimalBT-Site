@@ -19,13 +19,13 @@
             <mobilephone>%phone%</mobilephone>
             <otherphone></otherphone>
             <fax></fax>
-            <email>%email%</email>
+            <email></email>
             <url></url>
             <birthdate></birthdate> <!-- dd/mm/yyyy -->
-            <accountname></accountname>
+            <accountname>%ref%</accountname>
             <address>
                 <text></text>
-                <city>%address%</city>
+                <city></city>
                 <postalcode></postalcode>
                 <country></country>
             </address>
