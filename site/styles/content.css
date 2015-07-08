@@ -25,6 +25,10 @@
  	font-size: 1.3em;
  }
 
+ div.dialog {
+ 	transition:top 2s;
+ }
+
 
 div.form_wrap {
 	display: block;
